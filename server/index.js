@@ -9,11 +9,12 @@ const orderRoute = require("./routes/order");
 const stripeRoute = require("./routes/stripe");
 const cors = require("cors");
 
-//cors settings
-app.use(cors());
+
 // initailize express application
 const app = express();
 
+//cors settings
+app.use(cors());
 //use express json
 app.use(express.json());
 

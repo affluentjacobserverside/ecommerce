@@ -27,17 +27,20 @@ export const categories = [
     {
         id: 1,
         img: "https://images.pexels.com/photos/1937336/pexels-photo-1937336.jpeg?auto=compress&cs=tinysrgb&w=600",
-        title: "Shirt Style"
+        title: "Shirt Style",
+        cat: "women"
     },
     {
         id: 2,
         img: "https://images.pexels.com/photos/1488463/pexels-photo-1488463.jpeg?auto=compress&cs=tinysrgb&w=600",
         title: "Loungewear Love",
+        cat: "coat"
     },
     {
         id: 3,
         img: "https://images.pexels.com/photos/1884583/pexels-photo-1884583.jpeg?auto=compress&cs=tinysrgb&w=600",
         title: "Light Jackets",
+        cat:"jeans"
     },
 ];
 export const popularProducts = [
